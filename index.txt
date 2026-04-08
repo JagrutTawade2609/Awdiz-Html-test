@@ -1,0 +1,87 @@
+Theory Question:
+1. What is the purpose of <!DOCTYPE html>?
+--> Doctype html contains tags which contain important Html files for rendering the html page for the browser
+
+
+
+2. What is the difference between block-level and inline elements? Give examples.
+-->block level elements can change the entire width and height within the page 
+--> inline elements goes to the next line and width and height are changes within the compoments or remains the same 
+
+3. What are semantic HTML elements? Give 5 examples.
+--> semantic elements are used to identify different elements used for specfic purpose and gives better readablity to the person reading it and also improves seo
+example of semantic  html are <header> <nav> <footer> <section>
+
+
+4. What is the difference between <div> and <span>?
+<div> --> div is a block level element and can goes to the next line 
+<span> --> span is inline element and stays at same line 
+
+5. What are meta tags? Give one example.
+--> meta tags are used for character encoding like UTF-8 or to set viewport or edit the width of the content it is important for responsive code 
+
+
+6. What is the difference between <strong> and <b>, and <em> and <i>?
+--> <b> it is used to bold the character or <h> ,<p> but <strong> is a semantic tag and used more often 
+--> <i> it is used to make the character italic style and <em> is emphasis
+
+
+7. What is the purpose of the alt attribute in the <img> tag?
+<alt> in image is used when the image does not load it will get replaced by the name which is assigned by the alt attrubute 
+
+8. What is the difference between id and class attributes?
+<id> id is unique and can't be reused whereas <class> can be reused 
+
+
+9. Write HTML code to create a form with name input, email input, and submit button.
+<html>
+<head> 
+<title> form </title>
+<body>
+<form>
+<label>Name: </label>
+<input type="name"><br>
+<label>Email: </label>
+<input type="mail"><br>
+<input type="submit">
+ 
+
+10 What is the difference between <section> and <article>?
+
+11. What is the use of the <label> tag in forms?
+--> label is used to name or assign a description to the input field 
+
+
+12 What are void elements? Give examples.
+
+
+13 What is the difference between <link> and <a>?
+<link> is used for link internal files within head such as css or for importing external resources such as fonts
+<a> it is anchor tag which creates clickable link contains href attribute
+
+
+14 What are the different types of CSS?
+-->internal css
+-->external css
+-->inline css this is written within the html file
+
+15 What is CSS specificity?
+--> Css specificity is order or prority which is given to different types of css style methods 
+1. inline style is highest 
+2. id
+3. class
+4. element is the lowest in the priority 
+
+16 What is the difference between margin and padding?
+margin is the space outside the content 
+padding is the space within the content
+
+17What is Flexbox? Explain justify-content and align-items.
+flexbox is used to align the elements or content in the same line 
+
+18 What is a media query? Write an example.
+
+media query is used to make content responsive 
+@media (){
+
+}
