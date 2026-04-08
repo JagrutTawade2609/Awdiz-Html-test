@@ -44,6 +44,9 @@ example of semantic  html are <header> <nav> <footer> <section>
 <label>Email: </label>
 <input type="mail"><br>
 <input type="submit">
+</form>
+</head>
+</html>
  
 
 10 What is the difference between <section> and <article>?
